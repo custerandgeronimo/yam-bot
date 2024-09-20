@@ -1,0 +1,20 @@
+{
+  "name": "yam-bot",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx tsx index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "tsx": "^4.19.1"
+  },
+  "type": "module"
+}
