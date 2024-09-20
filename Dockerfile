@@ -4,7 +4,9 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm install && npm install -g typescript
+RUN npm install && npm install -g typescript tsx
+
+RUN chmod +x /usr/local/bin/tsx
 
 COPY . .
 
